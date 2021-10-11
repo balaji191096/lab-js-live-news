@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css"/>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+   
+   <title>LIVE News</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#home">Prograd News App</a></li>
+    
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn"> Top Country</a>
+          <div class="dropdown-content">
+            <a  id="btn1" onclick="getDataIn();">IN: India</a>
+            <a  id="btn2" onclick="getDataUs();">US: united states</a>
+            </div>
+        </li>
+      </ul>
+
+      <div id="box" class="box"></div>
+      <div id="errorMsg" class="errorMsg"></div>
+<script src="app.js"></script>
+    
+</body>
+</html>
