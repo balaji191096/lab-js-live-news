@@ -1,8 +1,8 @@
 //ApiKey 
 // 2ab72fb8a546434db369d92f3c5ead49
-// Top headlines in the US
+//Get HeadLines from US
 // https://newsapi.org/v2/top-headlines?country=us&apiKey=2ab72fb8a546434db369d92f3c5ead49
-// Top headlines from India
+// Get headlines from India
 // http://newsapi.org/v2/top-headlines?country=in&apiKey=2ab72fb8a546434db369d92f3c5ead49
 
 document.getElementById('btn1').addEventListener('click', getDataIn);
